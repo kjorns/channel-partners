@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* BOOTSTRAP OVERRIDE */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #E47028 !important;
+    color: #FFF !important;
+    border: 2px solid #E47028 !important;
+    border-radius: 15px !important;
+    margin: 10px !important;
+    width: 350px !important; height: 200px !important;
+}
+
+.btn-primary:hover {
+    opacity: 0.5 !important;
+    transition: 0.5s !important;
+}
+
+.modal-title {
+    color: #E47028 !important;
+}
+
+.modal-footer /* CENTER "BACK TO SERVICES" BUTTON */ {
+    display: inline-block !important;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #E47028 !important;
+    border-color: #E47028 !important;
+}
+/* BOOTSTRAP OVERRIDE */
+
+/* HEADER */
+header {
+    background: #FFF;
+    display: flex !important;
+    padding-bottom: 10px; padding-top: 10px;
+    position: sticky; top: 0;
+}
+
+.header-margin {
+    flex: 10%;
+}
+
+.header-logo {
+    background: url("images/ChannelPartners.jpg") no-repeat;
+    cursor: pointer;
+    flex: 40%;
+    height: 70px;
+}
+
+.navigation {
+    flex: 40%;
+    font-size: 15px;
+    padding-bottom: 15px; padding-top: 15px;
+    text-align: center;
+}
+
+.agent-login-button {
+    background-color: #FFF;
+    border: 2px solid #E47028;
+    border-radius: 15px;
+    color: #E47028;
+    float: right;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.agent-login-button:hover {
+    background-color: #E47028;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.nav-button {
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    float: right;
+    height: 40px;
+}
+
+.nav-button a {
+    color: #E47028;
+}
+
+.nav-button a:hover {
+    color: #E47028;
+    text-decoration: none;
+}
+/* HEADER */
+
+/* BODY */
+.container-1 {
+    padding-bottom: 50px; padding-top: 50px;
+    text-align: center;
+}
+
+.container-1 h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-1 p {
+    font-size: 15px;
+}
+
+    /* MODAL BODY - CONTRACTING, QUOTES/ILLUSTRATIONS, SUBMIT APPLICATION, & HOW TO... */
+    .submit{
+        text-align: center;
+    }
+    
+    .submit-button {
+        background-color: #FFF;
+        border: 2px solid #E47028;
+        border-radius: 15px;
+        color: #E47028;
+        height: 40px;
+    }
+    
+    .submit-button:hover {
+        background-color: #E47028;
+        color: #FFF;
+        transition: 0.5s;
+    }
+
+    .modal-button-div {
+        background-color: #E47028;
+        color: #FFF;
+        border: 2px solid #E47028;
+        border-radius: 15px;
+        display: inline-block;
+        height: 200px;
+        margin: 10px;
+        vertical-align: top;
+        width: 350px;
+    }
+
+    .modal-button-div h3 {
+        font-weight: bold;
+        padding-top: 25px;
+    }
+
+    .modal-button {
+        background-color: #FFF;
+        border: 2px solid #B8534F;
+        border-radius: 15px;
+        color: #B8534F;
+        font-size: 15px;
+        height: 50px;
+        width: 150px;
+    }
+
+    .modal-button:hover {
+        background-color: #B8534F;
+        color: #FFF;
+        transition: 0.5s;
+    }
+
+    .quick-step-by-step {
+        background-color: #D3D3D3;
+        border: 2px solid;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .quick-step-by-step h1 {
+        color: #E47028;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .quick-step-by-step h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .quick-step-by-step ul li {
+        text-align: left;
+    }
+
+    .how-to img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.container-2 {
+    background-color: #E47028;
+    color: #FFF;
+    display: flex;
+}
+
+.why-we-do-what-we-do {
+    flex: 60%;
+    margin-bottom: 50px; margin-top: 50px;
+}
+
+.why-we-do-what-we-do h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.why-we-do-what-we-do ul li {
+    font-size: 25px;
+}
+
+.container-3 {
+    display: flex;
+}
+
+.contact-us {
+    flex: 60%;
+    margin-bottom: 50px; margin-top: 50px;
+}
+
+.contact-us h1 {
+    color: #E47028;
+    font-size: 45px;
+    text-align: center;
+}
+
+.spaceholder {flex: 20%;} /* CONTAINER 2 & 3 */
+/* BODY */
+
+/* FOOTER */
+footer {
+    background-color: #E47028;
+    color: #FFF;
+    display: flex !important;
+    padding-bottom: 20px; padding-top: 20px;
+}
+
+.footer-margin {
+    flex: 10%;
+}
+
+.footer-logo {
+    background: url("images/ChannelPartners.jpg") no-repeat;
+    cursor: pointer;
+    flex: 26.66%;
+    height: 70px;
+}
+
+.footer-logo img {
+    visibility: hidden;
+}
+
+.address {
+    flex: 26.66%;
+    padding-bottom: 15px; padding-top: 15px;
+    text-align: center;
+}
+
+.contact-information {
+    flex: 26.66%;
+    padding-bottom: 15px; padding-left: 45px; padding-top: 15px;
+}
+
+.address h1, .contact-information h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.address p, .contact-information p {
+    font-size: 18px;
+}
+
+.contact-information a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.contact-information a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+/* FOOTER */
+
+@media screen and (max-width: 999px) {
+    /* HEADER SMALL SCREEN CHANGES */
+    .header-logo {flex: 70%;} .navigation {flex: 30%;} .nav-button {display: none;} .agent-login-button {border: none;} .agent-login-button:hover {background-color: #FFF; color: #E47028;}
+
+    .header-margin {display: none;}
+    
+    .spaceholder {flex: 5%;}
+
+    .modal-button-div {max-width: 100%;}
+
+    .why-we-do-what-we-do, .contact-us {flex: 90%;}
+
+    /* FOOTER SMALL SCREEN CHANGES */
+    footer {display: block !important; padding-left: 10%; padding-right: 10%;} .footer-margin {display: none;} .address {text-align: left;} .contact-information {text-align: left;padding: 0px;}
+}
